@@ -21,3 +21,5 @@ data class Note(
             R.color.red_pink)
     }
 }
+
+class InvalidNoteException(message: String): Exception(message)
